@@ -73,3 +73,9 @@ select {
 	color: #e6e6e6;
 	border: 1px solid #494949;
 }
+
+@media (max-width: 768px) {
+	body {
+		font-size: 200%;
+	}
+}
