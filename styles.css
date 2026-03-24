@@ -76,6 +76,6 @@ select {
 
 @media (max-width: 768px) {
 	body {
-		font-size: 200%;
+		font-size: 300%;
 	}
 }
