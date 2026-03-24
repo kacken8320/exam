@@ -78,4 +78,23 @@ select {
 	body {
 		font-size: 200%;
 	}
+
+	input[type='checkbox'],
+	input[type='radio'] {
+		transform: scale(1.8);
+		transform-origin: left center;
+		margin-right: 0.5em;
+	}
+
+	label {
+		line-height: 1.5;
+	}
+
+	select,
+	button,
+	input[type='text'] {
+		font-size: 1em;
+		padding: 0.35em 0.5em;
+		min-height: 2em;
+	}
 }
