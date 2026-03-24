@@ -74,8 +74,8 @@ select {
 	border: 1px solid #494949;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px), (hover: none) and (pointer: coarse) {
 	body {
-		font-size: 300%;
+		font-size: 200%;
 	}
 }
